@@ -40,8 +40,7 @@ keymap("n", "<A-j>", "<Esc>:m .+1<CR>==", opts)
 keymap("n", "<A-k>", "<Esc>:m .-2<CR>==", opts)
 
 -- Insert --
--- Press jk fast to enter
--- keymap("i", "jk", "<ESC>", opts)
+-- keymap("i", "<Enter>", "<Esc>==a", opts)
 
 -- Visual --
 -- Stay in indent mode

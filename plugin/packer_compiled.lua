@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/home/zhaochongyan/.local/share/nvim/site/pack/packer/start/alpha-nvim",
     url = "https://github.com/goolord/alpha-nvim"
   },
+  ["bufferline.nvim"] = {
+    loaded = true,
+    path = "/home/zhaochongyan/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
+    url = "https://github.com/akinsho/bufferline.nvim"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/home/zhaochongyan/.local/share/nvim/site/pack/packer/start/cmp-buffer",
@@ -179,10 +184,10 @@ _G.packer_plugins = {
     path = "/home/zhaochongyan/.local/share/nvim/site/pack/packer/start/vim-one",
     url = "https://github.com/rakr/vim-one"
   },
-  ["vim-raku"] = {
+  ["vim-surround"] = {
     loaded = true,
-    path = "/home/zhaochongyan/.local/share/nvim/site/pack/packer/start/vim-raku",
-    url = "https://github.com/Raku/vim-raku"
+    path = "/home/zhaochongyan/.local/share/nvim/site/pack/packer/start/vim-surround",
+    url = "https://github.com/tpope/vim-surround"
   },
   ["which-key.nvim"] = {
     loaded = true,

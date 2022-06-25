@@ -48,7 +48,7 @@ return packer.startup(function(use)
 	-- use "numToStr/Comment.nvim" -- Easily comment stuff
 	-- use "kyazdani42/nvim-web-devicons"
 	-- use "kyazdani42/nvim-tree.lua"
-	-- use "akinsho/bufferline.nvim"
+	use "akinsho/bufferline.nvim"
 	-- use "moll/vim-bbye"
 	use "nvim-lualine/lualine.nvim"
 	-- use "akinsho/toggleterm.nvim"
@@ -58,6 +58,7 @@ return packer.startup(function(use)
 	use "goolord/alpha-nvim"
 	-- use "antoinemadec/FixCursorHold.nvim" -- This is needed to fix lsp doc highlight
 	use "folke/which-key.nvim"
+	use "tpope/vim-surround"
 	--]]--
 
 	-- Colorschemes
@@ -103,8 +104,8 @@ return packer.startup(function(use)
 	use "lewis6991/gitsigns.nvim"
 	--]]--
 
-	-- Language
-	use  "Raku/vim-raku"
+	-- Language support
+	-- use  "Raku/vim-raku"
 	--]]--
 
 	-- Automatically set up your configuration after cloning packer.nvim

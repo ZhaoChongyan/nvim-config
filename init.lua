@@ -12,3 +12,6 @@ require "plugins.lualine"
 require "plugins.telescope"
 require "plugins.treesitter"
 require "plugins.whichkey"
+
+-- LSP configure
+require "lsp.init"
