@@ -58,7 +58,9 @@ return packer.startup(function(use)
 	use "goolord/alpha-nvim"
 	-- use "antoinemadec/FixCursorHold.nvim" -- This is needed to fix lsp doc highlight
 	use "folke/which-key.nvim"
+	use "tpope/vim-repeat"
 	use "tpope/vim-surround"
+	use "benknoble/vim-simpl"
 	--]]--
 
 	-- Colorschemes
@@ -98,6 +100,7 @@ return packer.startup(function(use)
 		run = ":TSUpdate",
 	}
 	use "JoosepAlviste/nvim-ts-context-commentstring"
+	use "p00f/nvim-ts-rainbow"
 	--]]--
 
 	--[[ Git
@@ -105,7 +108,11 @@ return packer.startup(function(use)
 	--]]--
 
 	-- Language support
-	-- use  "Raku/vim-raku"
+	use "vito-c/jq.vim"
+	use "benknoble/vim-racket"
+	use "benknoble/vim-sexp"
+	use "tpope/vim-sexp-mappings-for-regular-people"
+	use "benknoble/scribble.vim"
 	--]]--
 
 	-- Automatically set up your configuration after cloning packer.nvim
